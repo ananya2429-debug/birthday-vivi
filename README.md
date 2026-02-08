@@ -134,3 +134,63 @@ a{
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photos 📸</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  background:#1b1b2f;
+  font-family:Poppins,sans-serif;
+  color:white;
+}
+h1{text-align:center; color:#c77dff;}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1rem;
+  padding:2rem;
+}
+.polaroid{
+  background:white;
+  color:#333;
+  padding:.7rem;
+  border-radius:12px;
+  transform:rotate(-2deg);
+}
+.polaroid img{
+  width:100%;
+  border-radius:8px;
+}
+a{color:#c77dff; display:block; text-align:center; margin-bottom:1rem;}
+</style>
+</head>
+
+<body>
+
+<audio src="music.mp3" autoplay loop></audio>
+
+<h1>Our Memories 📸</h1>
+
+<div class="grid">
+  <div class="polaroid">
+    <img src="photo1.jpg">
+    <p>Us 💜</p>
+  </div>
+
+  <div class="polaroid">
+    <img src="photo2.jpg">
+    <p>That day ✨</p>
+  </div>
+</div>
+
+<a href="index.html">← Back</a>
+
+</body>
+</html>
