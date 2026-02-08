@@ -235,3 +235,73 @@ a{color:#c77dff; display:block; margin-bottom:1rem;}
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surprise 🔐</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#2a2a4f;
+  font-family:Poppins,sans-serif;
+  color:white;
+}
+.card{
+  background:#1b1b2f;
+  padding:2rem;
+  border-radius:20px;
+  text-align:center;
+  width:90%;
+  max-width:400px;
+}
+input{
+  padding:.6rem;
+  border-radius:10px;
+  border:none;
+  width:80%;
+}
+button{
+  margin-top:1rem;
+  padding:.6rem 1.4rem;
+  border:none;
+  border-radius:999px;
+  background:#c77dff;
+}
+</style>
+
+<script>
+function unlock(){
+  const pass = document.getElementById("p").value;
+  if(pass === "love"){
+    document.body.innerHTML =
+    "<h1 style='color:#c77dff;text-align:center;'>I love you 💜<br>Happy Birthday 🎉</h1>";
+  } else {
+    alert("Wrong password 😈");
+  }
+}
+</script>
+</head>
+
+<body>
+
+<audio src="music.mp3" autoplay loop></audio>
+
+<div class="card">
+  <h2>Enter Password 🔐</h2>
+  <input id="p" placeholder="hint: something cute">
+  <br>
+  <button onclick="unlock()">Unlock 💜</button>
+</div>
+
+</body>
+</html>
+
