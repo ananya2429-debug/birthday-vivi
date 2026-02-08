@@ -80,3 +80,57 @@ h1{color:#c77dff;}
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Message 💌</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#1b1b2f;
+  font-family:Poppins,sans-serif;
+  color:white;
+}
+.card{
+  background:#2f2f55;
+  padding:2.5rem;
+  border-radius:24px;
+  width:90%;
+  max-width:500px;
+  text-align:center;
+}
+a{
+  color:#c77dff;
+  text-decoration:none;
+  display:inline-block;
+  margin-top:1.5rem;
+}
+</style>
+</head>
+
+<body>
+
+<audio src="music.mp3" autoplay loop></audio>
+
+<div class="card">
+  <h1 style="color:#c77dff;">For You 💜</h1>
+
+  <p>
+    Happy Birthday my love 💕<br><br>
+    This page is just for you. Thank you for making my life 10 times better, my comfort, for being my favorite person of all times, and my chaos all at once. You are the best thing that has every happend to me. I hope we can grow together and face all the hardships without falling apart (i wanna see how our kids turn out 😏😏so u better stick to me for life or else , ill kill you 😆😘)
+  </p>
+
+  <a href="index.html">← Back</a>
+</div>
+
+</body>
+</html>
