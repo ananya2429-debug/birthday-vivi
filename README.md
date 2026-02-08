@@ -1,3 +1,4 @@
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,7 +78,7 @@ h1{color:#c77dff;}
     <a href="secret.html">🔐 Surprise</a>
   </div>
 </div>
-
+page1.html
 </body>
 </html>
 <!DOCTYPE html>
@@ -131,7 +132,7 @@ a{
 
   <a href="index.html">← Back</a>
 </div>
-
+page2.html
 </body>
 </html>
 <!DOCTYPE html>
@@ -191,7 +192,7 @@ a{color:#c77dff; display:block; text-align:center; margin-bottom:1rem;}
 </div>
 
 <a href="index.html">← Back</a>
-
+page3.html
 </body>
 </html>
 <!DOCTYPE html>
@@ -232,7 +233,7 @@ a{color:#c77dff; display:block; margin-bottom:1rem;}
 </video>
 
 <a href="index.html">← Back</a>
-
+secret.html
 </body>
 </html>
 <!DOCTYPE html>
