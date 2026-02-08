@@ -194,3 +194,44 @@ a{color:#c77dff; display:block; text-align:center; margin-bottom:1rem;}
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videos 🎥</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  background:#1b1b2f;
+  font-family:Poppins,sans-serif;
+  color:white;
+  text-align:center;
+}
+video{
+  width:90%;
+  max-width:500px;
+  border-radius:16px;
+  margin:1rem 0;
+}
+a{color:#c77dff; display:block; margin-bottom:1rem;}
+</style>
+</head>
+
+<body>
+
+<audio src="music.mp3" autoplay loop></audio>
+
+<h1 style="color:#c77dff;">Videos 🎥</h1>
+
+<video controls>
+  <source src="video1.mp4" type="video/mp4">
+</video>
+
+<a href="index.html">← Back</a>
+
+</body>
+</html>
