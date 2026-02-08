@@ -54,6 +54,48 @@ h1{color:#c77dff;}
     <a href="secret.html">🔐 Surprise</a>
   </div>
 </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Message 💌</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0; min-height:100vh;
+  display:flex; align-items:center; justify-content:center;
+  background:linear-gradient(135deg,#1b1b2f,#2a2a4f);
+  font-family:Poppins,sans-serif; color:white;
+}
+.card{
+  background:#2f2f55; padding:2.5rem;
+  border-radius:24px; text-align:center;
+  width:90%; max-width:500px;
+}
+a{color:#c77dff; text-decoration:none;}
+</style>
+</head>
+
+<body>
+<audio src="music.mp3" autoplay loop></audio>
+
+<div class="card">
+  <h1 style="color:#c77dff;">For You 💜</h1>
+  <p>
+    Happy Birthday 💕<br><br>
+    You make my days brighter, my life calmer,
+    and everything better just by being you.
+    I’m so grateful for every moment with you ✨
+  </p>
+
+  <a href="index.html">← Back Home</a>
+</div>
+</body>
+</html>
+
 </body>
 </html>
 
