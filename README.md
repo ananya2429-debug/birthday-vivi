@@ -85,10 +85,10 @@ a{color:#c77dff; text-decoration:none;}
 <div class="card">
   <h1 style="color:#c77dff;">For You 💜</h1>
   <p>
-    Happy Birthday 💕<br><br>
-    You make my days brighter, my life calmer,
-    and everything better just by being you.
-    I’m so grateful for every moment with you ✨
+    <br><br>
+   Happy Birthday my love 💕<br><br>
+
+This page is just for you. Thank you for making my life 10 times better, my comfort, for being my favorite person of all times, and my chaos all at once. You are the best thing that has every happend to me. I hope we can grow together and face all the hardships without falling apart (i wanna see how our kids turn out 😏😏so u better stick to me for life or else , i'll kill you 😆😘)
   </p>
 
   <a href="index.html">← Back Home</a>
